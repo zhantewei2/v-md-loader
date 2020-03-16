@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34194ce2-5e15-4d9e-aeb0-d78cfe9d3d85" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Z7l8xaen7PQY6cWi4D2YFYOFdS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ztwx-fire-docs" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="ts.external.directory.path" value="C:\workspace\framework\v-md-loader\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\framework\ztwx-fire-docs\public" />
+      <recent name="C:\workspace\framework\v-md-loader\package" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.compile-style">
+    <configuration name="compile-style" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile-style" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../ztwx-fire-docs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gen" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.compile-style" />
+        <item itemvalue="npm.gen" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34194ce2-5e15-4d9e-aeb0-d78cfe9d3d85" name="Default Changelist" comment="" />
+      <created>1584197857868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584197857868</updated>
+      <workItem from="1584197859266" duration="3387000" />
+      <workItem from="1584254557570" duration="22095000" />
+      <workItem from="1584287422520" duration="30124000" />
+      <workItem from="1584352963788" duration="11969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../ztwx-fire-docs/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="865" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584363228365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="865" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584363228365" />
+    <state x="840" y="288" key="FileChooserDialogImpl" timestamp="1584347110704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="840" y="288" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584347110704" />
+    <state width="1743" height="233" key="GridCell.Tab.0.bottom" timestamp="1584364469304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1743" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
+    <state width="1743" height="233" key="GridCell.Tab.0.center" timestamp="1584364469304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1743" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
+    <state width="1743" height="233" key="GridCell.Tab.0.left" timestamp="1584364469304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1743" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
+    <state width="1743" height="233" key="GridCell.Tab.0.right" timestamp="1584364469304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1743" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584274794669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584274794669" />
+    <state x="1" y="11" width="1223" height="848" key="dock-window-1" timestamp="1584361091541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1" y="11" width="1223" height="848" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584361091541" />
+    <state x="18" y="25" width="1047" height="846" key="dock-window-2" timestamp="1584352989909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="18" y="25" width="1047" height="846" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584352989909" />
+    <state x="948" y="256" width="807" height="632" key="find.popup" timestamp="1584365148747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="948" y="256" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584365148747" />
+    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1584346225230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584346225230" />
+  </component>
+</project>

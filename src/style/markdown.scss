@@ -1,0 +1,6 @@
+code[class^=language] {
+  background: $code-bg;
+  display: block;
+  padding: $code-pd;
+  @include Radius();
+}

@@ -1,0 +1,58 @@
+{
+  "name": "@ztwx/vue-md-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/zhantewei2/v-md-loader",
+  "bugs:": "https://github.com/zhantewei2/v-md-loader/issues",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.js",
+    "gen": "tsc -w -d --outDir lib",
+    "compile-style": "webpack --config sassWebpack.config.js"
+  },
+  "author": "zhantewei",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "dart-sass": "^1.25.0",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "peer": "^0.3.2",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "peerDependencies": {
+    "highlight.js": "^9.18.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "css-loader": "^3.4.2",
+    "highlight.js": "^9.18.1",
+    "loader-utils": "^1.4.0",
+    "marked": "^0.8.0",
+    "style-loader": "^1.1.3",
+    "tapable": "^1.1.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "markdown",
+    "loader",
+    "vue-markdown",
+    "vue-markdown-loader",
+    "markdown-loader",
+    "v-md-loader",
+    "md-loader",
+    "vue-md-loader"
+  ]
+}
