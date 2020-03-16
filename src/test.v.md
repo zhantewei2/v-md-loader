@@ -1,42 +1,28 @@
-Test title
+Example title
 ---
-- 1
-- 2
-- 3
-
-
+#### js code
 ```js
-
-console.log(1);
-console.log(3);
 const fn=()=>()=>()=>"void";
-
 ```
-
+#### vmd-template
+```vmd-template
+<div>hello-{{$data?"true":"false"}}</div>
+```
+#### vmd-component
 ```vmd-component
 <template>
-<div>
-aaa
-{{name}}
+<div><span :style="{background:i}" v-for="i in arr">{{i}}</span>
 </div>
 </template>
 <script>
 export default {
-    data:function(){
-        return ({
-            name:123
-        })
-    }
+    data:function(){return ({arr:["indianred","yellow","skyblue"]})}
 }
 </script>
 ```
-
-  
+#### vmd-import
 ```vmd-import
 import "./import-sample.vue";
 ```
-
-```vmd-template
-<div>hello</div>
-
-```
+end
+---

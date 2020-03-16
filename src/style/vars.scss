@@ -1,8 +1,30 @@
-$light-tinge: #f0f0f0;
-$use-radius: true;
+$vmd-light-tinge: #F6F8FA;
+$vmd-light-thin: rgb(230, 230, 230);
+$vmd-color-primary: gainsboro;
+$vmd-color-font-thin: rgb(black, .75);
+$vmd-color-font-tinge: rgb(black, .5);
+$vmd-color-burn-percent: 15%;
 
-$radius-base: .3rem;
-$code-bg: $light-tinge;
-$code-pd: 1rem;
-$code-mg: .5rem .4rem;
+$vmd-border-color: $vmd-light-thin;
+$vmd-use-radius: true;
+$vmd-radius-base: .3rem;
 
+$vmd-badge-bg: $vmd-light-tinge;
+$vmd-badge-pd: .2rem .5rem;
+$vmd-font-color: $vmd-color-font-thin;
+
+$vmd-code-bg: $vmd-light-tinge;
+$vmd-code-pd: 1rem;
+$vmd-code-mg: .5rem .4rem;
+
+$vmd-h2-pd: .6rem .2rem;
+$vmd-h2-mg: .6rem 0 .4rem 0;
+
+$vmd-blockquote-bg: $vmd-light-tinge;
+$vmd-blockquote-pd: .5rem .8rem;
+$vmd-blockquote-mg: 1rem 0 1.5rem 0;
+$vmd-blockquote-color: $vmd-color-font-tinge;
+
+$vmd-table-head-bg: $vmd-light-tinge;
+$vmd-table-cell-pd: .5rem .6rem;
+$vmd-table-mg: .5rem .3rem;

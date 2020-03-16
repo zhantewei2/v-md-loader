@@ -1,6 +1,7 @@
 import cc from "./test.v.md";
 import Vue from "vue";
 import "./style/main.scss";
+import "./main.css";
 
 // import cc2 from "./test2.v.md";
 const div = document.createElement("div");

@@ -8,7 +8,7 @@ export class VmdTemplate {
     render() {
         return `
 <template>
-    <div>
+    <div class="vmd-wrapper">
         ${this.mdContent}
     </div>
 </template>

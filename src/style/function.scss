@@ -1,0 +1,3 @@
+@function ColorBurn($color) {
+  @return darken($color, $vmd-color-burn-percent);
+}

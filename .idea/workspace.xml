@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34194ce2-5e15-4d9e-aeb0-d78cfe9d3d85" name="Default Changelist" comment="" />
+    <list default="true" id="34194ce2-5e15-4d9e-aeb0-d78cfe9d3d85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib/separate-vmtp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib/separate-vmtp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib/vmd-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib/vmd-template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/lib/separate-vmtp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/package/lib/separate-vmtp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/lib/vmd-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/package/lib/vmd-template.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/import-sample.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/import-sample.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/markdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/markdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.v.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.v.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z7l8xaen7PQY6cWi4D2YFYOFdS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,11 +37,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ztwx-fire-docs" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
-    <property name="ts.external.directory.path" value="C:\workspace\framework\v-md-loader\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\workspace\framework\ztwx-fire-docs\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -27,7 +50,7 @@
       <recent name="C:\workspace\framework\v-md-loader\package" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.compile-style">
+  <component name="RunManager" selected="npm.start">
     <configuration name="compile-style" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,10 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.compile-style" />
         <item itemvalue="npm.gen" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +113,10 @@
       <workItem from="1584197859266" duration="3387000" />
       <workItem from="1584254557570" duration="22095000" />
       <workItem from="1584287422520" duration="30124000" />
-      <workItem from="1584352963788" duration="11969000" />
+      <workItem from="1584352963788" duration="15703000" />
+      <workItem from="1584371413172" duration="1140000" />
+      <workItem from="1584374010436" duration="2509000" />
+      <workItem from="1584376599270" duration="5965000" />
     </task>
     <servers />
   </component>
@@ -111,41 +137,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="288" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584347110704" />
-    <state width="1743" height="233" key="GridCell.Tab.0.bottom" timestamp="1584364469304">
+    <state width="1743" height="216" key="GridCell.Tab.0.bottom" timestamp="1584376523771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1743" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
-    <state width="1743" height="233" key="GridCell.Tab.0.center" timestamp="1584364469304">
+    <state width="1743" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584376523771" />
+    <state width="1743" height="216" key="GridCell.Tab.0.center" timestamp="1584376523770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1743" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
-    <state width="1743" height="233" key="GridCell.Tab.0.left" timestamp="1584364469304">
+    <state width="1743" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584376523770" />
+    <state width="1743" height="216" key="GridCell.Tab.0.left" timestamp="1584376523770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1743" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
-    <state width="1743" height="233" key="GridCell.Tab.0.right" timestamp="1584364469304">
+    <state width="1743" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584376523770" />
+    <state width="1743" height="216" key="GridCell.Tab.0.right" timestamp="1584376523770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1743" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584364469304" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584274794669">
+    <state width="1743" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584376523770" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584383297758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584274794669" />
-    <state x="1" y="11" width="1223" height="848" key="dock-window-1" timestamp="1584361091541">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584383297758" />
+    <state x="1" y="11" width="1223" height="848" key="dock-window-1" timestamp="1584382774700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1" y="11" width="1223" height="848" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584361091541" />
+    <state x="1" y="11" width="1223" height="848" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584382774700" />
     <state x="18" y="25" width="1047" height="846" key="dock-window-2" timestamp="1584352989909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="18" y="25" width="1047" height="846" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584352989909" />
-    <state x="948" y="256" width="807" height="632" key="find.popup" timestamp="1584365148747">
+    <state x="948" y="256" width="807" height="632" key="find.popup" timestamp="1584375035176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="948" y="256" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584365148747" />
-    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1584346225230">
+    <state x="948" y="256" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584375035176" />
+    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1584374178078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584346225230" />
+    <state x="945" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584374178078" />
   </component>
 </project>

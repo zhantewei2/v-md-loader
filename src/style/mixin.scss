@@ -1,5 +1,13 @@
-@mixin Radius($radius-value:$radius-base) {
-  @if $use-radius {
+@mixin Radius($radius-value:$vmd-radius-base) {
+  @if $vmd-use-radius {
     border-radius: $radius-value;
+  }
+}
+
+@mixin Border($all:null) {
+  @if $all {
+    border: 1px solid $vmd-border-color;
+  } @else {
+    border-bottom: 1px solid $vmd-border-color;
   }
 }

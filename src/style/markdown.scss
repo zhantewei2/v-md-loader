@@ -1,6 +1,59 @@
-code[class^=language] {
-  background: $code-bg;
-  display: block;
-  padding: $code-pd;
-  @include Radius();
+.vmd-wrapper {
+  code[class^=language] {
+    background: $vmd-code-bg;
+    display: block;
+    padding: $vmd-code-pd;
+    @include Radius();
+  }
+
+  code:not([class]) {
+    background: $vmd-badge-bg;
+    padding: $vmd-badge-pd;
+    @include Radius();
+    color: $vmd-font-color;
+  }
+
+  h2 {
+    border-bottom: 1px solid red;
+    margin: $vmd-h2-mg;
+    padding: $vmd-h2-pd;
+    @include Border();
+  }
+
+  blockquote {
+    background: $vmd-blockquote-bg;
+    border-left: 10px solid ColorBurn($vmd-blockquote-bg);
+    margin: $vmd-blockquote-mg;
+    color: $vmd-blockquote-color;
+    @include Radius();
+
+    p {
+      padding: $vmd-blockquote-pd;
+      margin: 0;
+    }
+  }
+
+  table, th, td {
+    @include Border(true);
+  }
+
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: $vmd-table-mg;
+
+    th, td {
+      padding: $vmd-table-cell-pd;
+    }
+
+    thead {
+      background: $vmd-table-head-bg;
+    }
+
+    tbody {
+      tr:nth-child(even) {
+        background: $vmd-table-head-bg;
+      }
+    }
+  }
 }
