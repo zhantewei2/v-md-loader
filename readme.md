@@ -19,8 +19,11 @@ Example
 ---
 `render result`:
 
+![render-image][img_render]
 
 `vmd markdown code`:
+
+![origin-image][img_origin]
 
 
 Install
@@ -108,66 +111,56 @@ Render Vue code
 ---
 Forgive me. I have to write markdown in markdown.
 
-### vmd-template
+Please replace **'** to **`**
 
-*Please delete **\\** before the **```** when using.*
+### vmd-template
 
 `example.v.md`:
 ```html
-your title
----
-\```js
-console.log("This is plain javascript code.")
-\```
+# your title
 
-\```vmd-template
+'''js
+console.log("This is plain javascript code.")
+'''
+
+'''vmd-template
 <my-card></my-card>
 <my-button></my-button>
-\```
+'''
 ```
-The code below the `vmd-template` will be rendered��
+The code below the `vmd-template` will be rendered.
+
 ### vmd-component
 
-*Please delete **\\** before the **```** when using.*
 
 `example.v.md`
 
 ```html
-your title
----
+# your title
 **your markdown tag**
-\```vmd-component
-<template>
-    <div>vmd component work!!!</div>
-</template>
-<script>
-export default {}
-</script>
-\```
-\```vmd-component
-<template><div>vmd ts component!!</div></template>
-<script lang="ts">
-import {Vue,Component} from "vue-property-decorator";
-@Component
-export default extends Vue{}
-</script>
-\```
-
+'''vmd-component
+  <template>
+      <div>vmd component work!!!</div>
+  </template>
+  <script>
+  export default {}
+  </script>
+'''
 ```
 The embedded `vue component` will be rendered in the final markdown file.
+
 ### vmd-import
-*Please delete **\\** before the **```** when using.*
+
 
 `example.v.md`
 
-```html
+```javascript
 
-your title
----
-\```vmd-import
+# your title
+
+'''vmd-import
 import "./you.vue"
-\```
-
+'''
 ```
 
 `you.vue` will be rendered as a component in the markdown file.
@@ -183,3 +176,5 @@ import "./you.vue"
 [npm-image]: https://img.shields.io/npm/v/@ztwx/vue-md-loader.svg
 [npm-downloads]: https://img.shields.io/npm/dt/@ztwx/vue-md-loader.svg
 [npm-url]: https://www.npmjs.com/package/@ztwx/vue-md-loader
+[img_render]: https://zhantewei2.github.io/v-md-loader/md-render.png
+[img_origin]: https://zhantewei2.github.io/v-md-loader/md-origin.png
