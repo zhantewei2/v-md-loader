@@ -98,4 +98,4 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   font-weight: bold;
 }
 
-code[class^=language]{background:#f0f0f0;display:block;padding:1rem;border-radius:.3rem}
+.vmd-wrapper code[class^=language]{background:#f6f8fa;display:block;padding:1rem;border-radius:.3rem}.vmd-wrapper code:not([class]){background:#f6f8fa;padding:.2rem .5rem;border-radius:.3rem;color:rgba(0,0,0,.75)}.vmd-wrapper h2{border-bottom:1px solid red;margin:.6rem 0 .4rem 0;padding:.6rem .2rem;border-bottom:1px solid #e6e6e6}.vmd-wrapper blockquote{background:#f6f8fa;border-left:10px solid #c5d2df;margin:1rem 0 1.5rem 0;color:rgba(0,0,0,.5);border-radius:.3rem}.vmd-wrapper blockquote p{padding:.5rem .8rem;margin:0}.vmd-wrapper table,.vmd-wrapper th,.vmd-wrapper td{border:1px solid #e6e6e6}.vmd-wrapper table{border-spacing:0;border-collapse:collapse;margin:.5rem .3rem}.vmd-wrapper table th,.vmd-wrapper table td{padding:.5rem .6rem}.vmd-wrapper table thead{background:#f6f8fa}.vmd-wrapper table tbody tr:nth-child(even){background:#f6f8fa}

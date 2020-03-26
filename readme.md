@@ -83,7 +83,7 @@ module.exports={
   modules:{
       rules:[
         {
-          test:/\.v\.md/,
+          test:/\.v\.md$/,
           loader:"@ztwx/vue-md-loader"
         }],
     },
